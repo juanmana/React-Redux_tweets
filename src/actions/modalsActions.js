@@ -3,6 +3,7 @@ export const openCloseAddTweetModalAction = state =>{
     return {
 
 
-        type: "STATE_TWEET_MODAL"
+        type: "STATE_ADD_TWEET_MODAL",
+        payload: state,
     }
 }
